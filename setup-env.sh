@@ -1,8 +1,5 @@
 #!/bin/bash
 
-git clone https://github.com/huggingface/diffusers
-cd diffusers
-
 python -m venv .venv
 source .venv/bin/activate
 pip install -e .
